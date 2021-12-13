@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /auth/
+
+User-agent: *
+Disallow: /public/
+
+Sitemap: https://learn.elementarylearn.site/sitemap.txt

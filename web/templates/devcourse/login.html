@@ -1,0 +1,30 @@
+%% define "devcourse/login.html" %%﻿
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Login page</title>
+    <link rel="stylesheet" href="/assets/css/marx.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  </head>
+  <body>
+
+<main>
+<h1>Login page</h1>
+  
+ <form action="/auth/signin.php" method="post" enctype="multipart/form">
+  <label for="login">Username</label>
+  <input id="login" type="text" name="username" placeholder="E-mail" minlength="8" maxlength="64" pattern="[a-zA-Z\s-_0-9]{8,64]" required="required" autocomplete="username">
+  <label for="secret">Password</label>
+  <input type="password" id="secret" name="current-password" placeholder="Password" required="required">
+  <br>
+  <button class="button primary" id="send" type="submit">Submit</button>
+  &nbsp;
+  <button type="reset" class="button">Cancel</button>
+</form>
+</main>
+  </body>
+</html>
+%% end %%

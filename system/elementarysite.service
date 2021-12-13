@@ -1,0 +1,31 @@
+[Unit]
+Description=elementarylearn website
+ConditionPathExists=/home/user/Go/src/github.com/tvitcom/elementarysite
+ConditionFileNotEmpty=/home/user/Go/src/github.com/tvitcom/elementarysite/elementarylearn
+After=network.target
+
+[Service]
+Type=simple
+User=a
+Group=a
+LimitNOFILE=1024
+
+Restart=on-failure
+RestartSec=10
+
+WorkingDirectory=/home/user/Go/src/github.com/tvitcom/elementarysite
+#AppArmorProfile=/etc/apparmor.d/no_raw_net
+#ExecStartPre=/sbin/apparmor_parser -r -W /etc/apparmor.d/no_raw_net
+ExecStart=/home/user/Go/src/github.com/tvitcom/elementarysite/elementarylearn
+
+# make sure log directory exists and owned by syslog
+PermissionsStartOnly=true
+ExecStartPre=/bin/mkdir -p /var/log/elementarylearn
+#ExecStartPre=/bin/chown syslog:www-data /var/log/elementarylearn
+ExecStartPre=/bin/chmod 755 /var/log/elementarylearn
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=elementarylearn
+
+[Install]
+WantedBy=multi-user.target

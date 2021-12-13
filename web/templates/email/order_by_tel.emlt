@@ -1,0 +1,16 @@
+From: {{ .From }}
+Subject: {{ .Brand }} ORDER BY TEL WAIT FROM {{ .Name }}, 
+MIME-version: 1.0;
+Content-Type: text/plain; charset="UTF-8";
+
+Now new income order:
+
+CUSTOMER_NAME: {{ .Name }}
+
+CUSTOMER_TEL : {{ .Tel }}
+
+CUSTOMER_NOTE: "{{ .Note }}"
+
+Sincerelly, your MAILER from {{ .Brand }}
+---
+Go to the {{ .Brand }} site and contact then by phone!!!

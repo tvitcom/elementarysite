@@ -1,0 +1,135 @@
+%% define "devcourse/reply.html" %%﻿
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Автор Роман">    
+	<meta name="description" content="сайта elementary stack - индивидуальное обучение основам web программирования в Харькове. Простое обучение программирования php sql js для начинающих">
+	<title>Elementary-learn - Оставить отзыв</title>
+	<link rel="shortcut icon" href="/assets/images/favicon.ico"> 
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:800|Roboto:400,500,700&display=swap" rel="stylesheet">
+	<!-- FontAwesome JS-->
+	<script defer src="/assets/fontawesome/js/all.min.js"></script>
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="/assets/css/theme-1.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBBBBBBBBBB"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-BBBBBBBBBBB');
+	</script>
+</head> 
+<body>	
+	<div class="sections-wrapper">
+		
+		<div class="section-nav-space-holder d-lg-block">
+	        <div id="section-nav-wrapper" class="section-nav-wrapper text-center">
+	            <div class="container-fluid justify-content-center">
+	                <ul id="section-nav" class="section-nav nav list-inline">
+	                    <li class="nav-item"><a class="nav-link" href="/" target="_self">Главная</a></li>
+	                    <li class="nav-item"><a class="nav-link"  href="/#section-content">Содержание</a></li>
+	                    <li class="nav-item"><a class="nav-link"  href="/#section-requirements">Требования</a></li>
+	                    <li class="nav-item"><a class="nav-link"  href="/#section-tutor">Наставник</a></li>
+	                    <li class="nav-item"><a class="nav-link"  href="/#section-reviews" title="пока не доступно!">Отзывы</a></li>
+	                    <li class="nav-item"><a class="nav-link"  href="/#section-pricing">Цены</a></li>
+	                    <li class="nav-item"><a class="nav-link"  href="/#section-faq">Вопросы-Ответы</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="/#section-more">Еще</a></li>
+	                </ul><!--//page-nav-->
+	            </div>
+	        </div><!--//page-nav-wrapper-->
+	    </div><!--//page-nav-space-holder-->
+        
+        <div class="section-blocks mb-5">
+	        
+		    <div id="section-requirements" class="section-requirements section">
+		        <div class="container py-5">
+			        <div class="section-col-max mx-auto">
+				        <h3 class="section-title mb-4">Оставить отзыв</h3>
+			            <p class="mb-5">(пока не работает)</p>
+			            
+			             <div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
+<!-- 						    <h4 class="form-heading text-center mb-3">Сообщение</h4>
+						    <div class="form-intro text-center mb-3">Имя, E-mail и желательно ваше фото <em>(будет преобразовано автоматически с малому размеру как на других отзывах.)</em></div> -->
+						    <div class="form-wrapper">
+							    <form class="lead-form" method="post" action="/getquotes" enctype="multipart/form-data">
+									<div class="form-group mb-3">
+										<label for="given-name" class="sr-only">Имя</label>
+										<input type="text" class="form-control " id="given-name" name="given-name" title="Ваш имя" placeholder="Ваше имя" minlength="2" maxlength="64" pattern="[a-zA-Zа-яёА-ЯЁїЇіІґҐ\s\.\,\-]{2,64}" required="required" autocomplete="given-name">
+									</div>
+									<div class="form-group mb-3">
+										<label for="email" class="sr-only">E-mail</label>
+										<input type="email" class="form-control " id="email" name="email" title="Ваш email нужен для подтверждения что вы не спамер" placeholder="Ваш e-mail для подтверждения" minlength="8" maxlength="64" pattern="^[_a-zA-Z0-9/.]{2,60}@[a-zA-Z0-9]{2,56}.[a-zA-Z]{2,6}$" required="required" autocomplete="email">
+									</div>
+									<div class="form-group mb-3">
+									    <label for="reply_file">Фото для показа на странице отзывов</label>
+									    <input type="file" class="form-control-file" id="reply_file" name="reply_photo" accept="image/jpeg,image/png">
+									</div>
+									<div class="form-group mb-3">
+									    <label for="select_rating">Поставьте пожалуйста свою оценку</label>
+								<!-- 	    <input class="form-control-range" id="select_rating" type="number" name="myrating" min="1" max="5" step="0.5" placeholder="Ваша оценка 3 ?"  required="required"> -->
+
+									    <select class="form-control" id="select_rating" name="myrating" min="1" max="5" required="required">
+										  <option value="5">Оценка: 5</option>
+										  <option value="4">Оценка: 4</option>
+										  <option value="3">Оценка: 3</option>
+										  <option value="2,5" selected="selected">Средняя</option>
+										  <option value="2">Оценка: 2</option>
+										  <option value="1">Оценка: 1</option>
+										</select>
+									</div>
+									<div class="form-group mb-3">
+										<label for="msg" class="sr-only">Сообщение</label>
+										<textarea rows="4" class="form-control " id="msg" name="msg" title="Сообщение до 150 символов" placeholder="Ваш отзыв" maxlength="150" minlength="3" pattern="[a-zA-Zа-яёА-ЯЁїЇіІґҐ\s\.\,\-\:]{3,150}|^(http)" required="required" ></textarea>
+									</div>
+									<button type="submit" class="btn btn-ghost btn-submit btn-block">Опубликовать</button>
+								</form>
+						    </div><!--//form-wrapper-->
+					    </div><!--//lead-form-wrapper-->
+			            
+			        </div>
+		        </div><!--//container-->
+		    </div><!--//section-requirements-->
+
+	    </div><!--//sections-block--> 
+	</div><!--//section-wrapper-->
+
+	<footer class="footer pb-5 text-center">
+		<div class="container">
+			<div class="copyright mb-2">
+				<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+	            Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow noopener">Xiaoying Riley</a> for developers
+			</div>
+			<div class="legal mb-0">
+				<ul class="list-inline mb-0" lang="en">
+					<li class="list-inline-item"><a href="/index.html">Home</a></li>
+					<li class="list-inline-item theme-text-light">|</li>
+					<li class="list-inline-item"><a href="/support.html">Support</a></li>
+					<li class="list-inline-item theme-text-light">|</li>
+					<li class="list-inline-item"><a href="/GDPR_POLICY_RU.txt">Privacy Policy</a></li>
+					<li class="list-inline-item theme-text-light">|</li>
+					<li class="list-inline-item"><a href="/tos.html">Terms of Services</a></li>
+				</ul>
+			</div>
+		</div><!--//container-->
+	</footer><!--//footer-->
+	
+	<!-- Javascript -->          
+	<script src="/assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+	<script src="/assets/plugins/back-to-top.js"></script>
+    <script src="/assets/plugins/jquery.scrollTo.min.js"></script> 
+	<script src="/assets/js/main.js"></script>
+	
+	<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+	<!--script src="/assets/js/demo/style-switcher.js"></script-->  
+
+</body>
+</html> 
+%% end %%

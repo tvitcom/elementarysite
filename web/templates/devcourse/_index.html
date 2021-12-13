@@ -1,0 +1,875 @@
+%% define "devcourse/index.html" %%﻿
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="обучение основам web программирования в Харькове, обучение golang sql js для школьников и взрослых">
+	<meta name="keywords" content="обучение основам программирования; Golang /or/ JS /or/ SQL /or/ HTML /or/ web /or/ linux">
+	<title>Elementary-learn - Индивидуальные занятия основ web программирования в Харькове</title>
+	<link rel="shortcut icon" href="/assets/images/favicon.ico"> 
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:800|Roboto:400,500,700&display=swap" rel="stylesheet">
+	<!-- FontAwesome JS-->
+	<script defer src="/assets/fontawesome/js/all.min.js"></script>
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="/assets/css/theme-1.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBBBBBBBBBB"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-BBBBBBBBBBB');
+	</script>
+</head> 
+<body>
+<noscript>
+  <div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
+    <h4 class="form-heading text-center mb-3">Информация о конфиденциальности</h4>
+    <div class="form-intro text-lg-left mb-3">
+    	
+    	%% template "_tos_text.html" . %%
+
+    </div>
+    <div class="form-wrapper text-lg-left mb-3">
+	    <!-- <form class="lead-form" method="post" action="/getquotes" enctype="application/x-www-form-urlencoded"> -->
+			<!-- <input type="submit" class="btn btn-ghost btn-submit btn-block" onclick="agreeOnce()" value="Подтверждаю"> -->
+		<!-- </form> -->
+			<button class="btn btn-ghost btn-submit btn-block" onclick="agreePrivacyPolicyOnce()">Подтверждаю
+			</button>
+    </div><!--//form-wrapper-->
+  </div><!--//lead-form-wrapper-->
+</div><!--//modal-body-->
+</noscript>
+	<header class="header">
+		<section class="hero-section">
+			<div class="hero-mask">
+			</div><!--//hero-mask-->
+			<div class="container text-center py-5">
+				<div class="single-col-max mx-auto">
+					<div class="hero-heading-upper pt-3 mb-3">Элеметарно о <br class="d-md-none">PHP JS SQL HTML CSS</div>
+					<h1 class="hero-heading mb-5">
+						<span class="brand mb-4 d-block"><span class="text-highlight pr-2">{</span><span class="name">el(ementary)stack</span><span class="text-highlight pl-2">}</span></span>
+					    <span class="desc d-block">Индивидуальные занятия основ web программирования в Linux</span>
+				    </h1>
+					<div class="text-center mb-5">
+						<a href="#section-pricing" class="btn btn-primary btn-lg scrollto" title="0..8000 UAH">Запрос стоимости</a>
+					</div>
+					
+					<div class="hero-summary">
+						<div class="row">
+							<div class="item col-4">
+								<div class="summary-desc mb-1"><i class="icon fas fa-video mr-2"></i>Youtube channel</div>
+								<h4 class="summary-heading">9+ <span class="desc">Videos</span></h4>
+								
+							</div><!--//col-->
+							<div class="item col-4">
+								<div class="summary-desc mb-1"><i class="icon fas fa-clock mr-2"></i>Курс</div>
+								<h4 class="summary-heading">24+ <span class="desc">Часа</span></h4>
+								
+							</div><!--//col-->
+							<div class="item col-4">
+								<div class="summary-desc mb-1"><i class="icon fas fa-user-circle mr-2"></i>Возраст</div>
+								<h4 class="summary-heading">12+</h4>
+								
+							</div><!--//col-->
+						</div><!--//row-->
+					</div><!--//hero-summary-->
+				</div><!--//single-col-max-->
+			</div><!--//container-->
+			
+		</section><!--//hero-section-->
+	</header><!--//header-->
+	
+	<div class="sections-wrapper">
+
+		<div class="section-nav-space-holder d-none d-lg-block">
+	        <div id="section-nav-wrapper" class="section-nav-wrapper text-center">
+	            <div class="container-fluid justify-content-center">
+	                <ul id="section-nav" class="section-nav nav list-inline">
+	                    <li class="nav-item"><a class="nav-link scrollto"  href="#section-overview">Методика</a></li>
+	                    <li class="nav-item"><a class="nav-link scrollto"  href="#section-content">Содержание</a></li>
+	                    <li class="nav-item"><a class="nav-link scrollto"  href="#section-requirements">Требования</a></li>
+	                    <li class="nav-item"><a class="nav-link scrollto"  href="#section-tutor">Наставник</a></li>
+	                    <li class="nav-item"><a class="nav-link scrollto"  href="#section-reviews" title="пока не доступно!">Отзывы</a></li>
+	                    <li class="nav-item"><a class="nav-link scrollto"  href="#section-pricing">Цены</a></li>
+	                    <li class="nav-item"><a class="nav-link scrollto"  href="#section-faq">Вопросы-Ответы</a></li>
+	                    <li class="nav-item"><a class="nav-link scrollto" href="#section-more">Еще</a></li>
+	                </ul><!--//page-nav-->
+	            </div>
+	        </div><!--//page-nav-wrapper-->
+	    </div><!--//page-nav-space-holder-->
+        
+        
+        <div class="section-blocks mb-5">
+	        
+		    <div id="section-overview" class="section-overview section pt-md-4 pt-lg-5">
+		        <div class="container py-5">
+			        <div class="section-col-max mx-auto">
+				        <h3 class="section-title mb-4">Применяемые методы обучения</h3>
+			            <p class="mb-4">Моя программа это выжимка самого важного, по моему опыту - того что изучая самостоятельно вы сможете узнать потратив огромное количество времени, нервов и усердия. Вам разумнее заплатить на порядок меньше по сравнению с IT-академиями и достигнуть большего за минимальное время. Мой курс 24 часа - 12 дней по 2 часа в день + первое занятие бесплатно. Людям с ограниченными возможностями скидка более 50 процентов. 
+			            </p><p>Обучаю следующим образом - на вашем ПК настраиваем Linux окружение. Вы записываете последовательность действий и оссобенности которые могут возникать под мою диктовку. После этого вы сами повторяете действия по ваши записям, если успешно - тему прошли (оплата за 2 часа, не более). Если забудете то всегда можно обратится к своей тетрадке и повторить написанное самостоятельно. Моя методика обьяснения "простые ярлыки сложным вещам", адаптирована к обычным способностям и не требует от человека многомесячных занятий по типу "от простого-к сложному" для достижения практических результатов. Так же использую интелигентный подход:
+<pre>
+СТАВИМ ЗАДАЧУ -> РАЗБИВАЕМ НА ПОДЗАДАЧИ 
+	-> ИЩЕМ ТЕХНОЛОГИИ РЕШЕНИЯ -> ГАЙДЫ С ОФСАЙТА
+	-> АДАПТИРУЕМ КОД -> СМОТРИМ ЧЕГО НЕ ХВАТАЕТ.
+</pre>
+						</p><p>И покажу как просто находить недостающюю информацию в интернете, работать с базой данных, писать код, импортировать данные, работать с хостингом и еще много всего. Ваши вопросы приветствуются - нет вопросов означает человек не учится. Мои советы необходимы для быстрого достижения вашей успеваемости.
+			            </p><p>После завершения курса занятий вы сможете:</p>
+			            <div class="text-left mb-3">
+				            <ul class="column-list list-unstyled mx-auto d-inline-block">
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>установить настроить Linux</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>установить Wordpress, Prestashop</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>купить свой домен от <a href="https://nic.ua/ru/domains/.site" target="_blank">26 грн</a> (или <a title="для некоммерческих персональных сайтов" target="_blank" rel="nofollow noopener" href="https://nic.ua/ru/domains/.pp.ua">бесплатно</a>)</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>поставить на него бесплатный ssl сертификат</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>подключите свой https-сайт</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>понимать архитектуру сайта</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>назначение кода</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>научитесь писать код Go, SQL, JS...</li>
+								<li><i class="theme-check-icon fas fa-check mr-2"></i>создадите БД и интересное web-приложение</li>
+							</ul>
+			            </div><!--//text-center-->
+			            <div class="text-center mb-5">
+				            <a class="btn btn-primary scrollto" href="#section-pricing">Заказ занятий</a>
+			            </div>
+			            <!--div class="video-container">
+				            <div class="embed-responsive embed-responsive-16by9">
+			                    <iframe class="embed-responsive-item" width="560" height="315" src="https://youtu.be/tv7Joi1LahE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				            </div>
+			            </div>< video-container -->
+			            
+			        </div><!--//section-col-max-->
+		        </div><!--//container-->
+		    </div><!--//section-overview-->
+		    
+		    <div id="section-content" class="section-content section">
+		        <div class="container py-5">
+			        <div class="section-col-max mx-auto">
+			            <h3 class="section-title mb-5">Содержание обучения</h3>
+			            
+			            <div class="data-summary justify-content-center text-center">
+				            <div class="row mb-5">
+					            <div class="item col-6 col-lg-3 mb-3 mb-lg-0">
+						            <div class="data">3+</div>
+						            <div class="meta">модуля</div>
+					            </div><!--//item-->
+					            <div class="item col-6 col-lg-3 mb-3 mb-lg-0">
+						            <div class="data">1+</div>
+						            <div class="meta">приложений</div>
+					            </div><!--//item-->
+					            <div class="item col-6 col-lg-3 mb-3 mb-lg-0">
+						            <div class="data">4+</div>
+						            <div class="meta">Языка программирования</div>
+					            </div><!--//item-->
+					            <div class="item col-6 col-lg-3 mb-3 mb-lg-0">
+						            <div class="data">24...</div>
+						            <div class="meta">ч (+факультативно)</div>
+					            </div><!--//item-->
+				            </div><!--//row-->
+			            </div><!--//course-summary-->
+			            
+			            <h4 class="text-center mb-4">Содержание модулей</h4>
+			            
+						<div class="accordion module-accordion" id="module-accordion">
+							<div class="module-item card">
+							    <div class="module-header card-header" id="module-heading-1">
+							        <h4 class="module-title mb-0">
+								        <a class="card-toggle module-toggle" href="#module-1" data-toggle="collapse" data-target="#module-1" aria-expanded="false" aria-controls="module-1">
+									        <i class="module-toggle-icon fas fa-plus mr-2"></i>
+								            Module 1 - Lorem Ipsum Dolor Sit Amet
+								        </a>
+							        </h4>
+							    </div><!--//card-header-->
+							
+								<div id="module-1" class="module-content collapse show123" aria-labelledby="module-heading-1" >
+									<div class="card-body p-0">
+										<div class="module-intro p-3">Module intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum elit non neque venenatis, ut mattis sapien lobortis. Integer eget turpis non ipsum convallis convallis vitae eu nunc.</div>
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">1.1</span><a class="video-play-trigger" href="#" data-toggle="modal" data-target="#modal-video">Module Intro Video</a><span class="badge badge-primary ml-2">Preview</span></div>
+											    <div class="col-3 text-right extra-info">02:30</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">1.2</span>
+													<a class="video-play-trigger" href="#" data-toggle="modal" data-target="#modal-callrequest">Module cal request</a>
+											    </div>
+											    <div class="col-3 text-right extra-info">15:20</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">1.3</span><a class="video-play-trigger" href="#" data-toggle="modal" data-target="#modal-privacy-agreement">Module GDPR AGREEMENT</a></div>
+											    <div class="col-3 text-right extra-info">23:15</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">1.4</span>Module Suspendisse Porttitor</div>
+											    <div class="col-3 text-right extra-info">07:50</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">1.5</span>Module Related Resources</div>
+											    <div class="col-3 text-right extra-info"><span class="icon dripicons-download mr-2"></span>Resources</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    
+									</div><!--//card-body-->
+								</div><!--//module-content-->
+							</div><!--//module-item-->
+							
+							<div class="module-item card">
+							    <div class="module-header card-header" id="module-heading-2">
+							        <h4 class="module-title mb-0">
+								        <a class="card-toggle module-toggle" href="#module-2" data-toggle="collapse" data-target="#module-2" aria-expanded="true" aria-controls="module-2">
+									        <i class="module-toggle-icon fas fa-plus mr-2"></i>
+								            Module 2 - Lorem Ipsum Dolor Sit Amet
+								        </a>
+							        </h4>
+							    </div><!--//card-header-->
+							
+								<div id="module-2" class="module-content collapse" aria-labelledby="module-heading-2" >
+									<div class="card-body p-0">
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">2.1</span>Module Intro Video</div>
+											    <div class="col-3 text-right extra-info">02:30</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">2.2</span>Module Lorem Ipsum</div>
+											    <div class="col-3 text-right extra-info">15:20</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">2.3</span>Module Suscipit Arcu</div>
+											    <div class="col-3 text-right extra-info">23:15</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    									    
+									</div><!--//card-body-->
+								</div><!--//module-content-->
+							</div><!--//module-item-->
+							
+							<div class="module-item card">
+							    <div class="module-header card-header" id="module-heading-3">
+							        <h4 class="module-title mb-0">
+								        <a class="card-toggle module-toggle" href="#module-3" data-toggle="collapse" data-target="#module-3" aria-expanded="true" aria-controls="module-3">
+									        <i class="module-toggle-icon fas fa-plus mr-2"></i>
+								            Module 3 - Lorem ipsum dolor sit amet. 
+								        </a>
+							        </h4>
+							    </div><!--//card-header-->
+							
+								<div id="module-3" class="module-content collapse" aria-labelledby="module-heading-3" >
+									<div class="card-body p-0">
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">3.1</span>Module Intro Video</div>
+											    <div class="col-3 text-right extra-info">02:30</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">3.2</span>Module Lorem Ipsum</div>
+											    <div class="col-3 text-right extra-info">15:20</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+									    <div class="module-sub-item p-3">
+										    <div class="row justify-content-between">
+											    <div class="col-9"><span class="theme-text-secondary mr-2">3.3</span>Module Suscipit Arcu</div>
+											    <div class="col-3 text-right extra-info">23:15</div>
+										    </div>
+									    </div><!--//module-sub-item-->
+								
+									    
+									</div><!--//card-body-->
+								</div><!--//module-content-->
+							</div><!--//module-item-->
+							
+						</div><!--//module-accordion-->
+						
+						<div class="text-center mt-5">
+				            <a class="btn btn-primary scrollto" href="#section-pricing">Выбрать цену</a>
+			            </div>
+			            
+			            
+			        </div>	            
+		        </div><!--//container-->
+		    </div><!--//section-content-->
+		    
+		    <div id="section-requirements" class="section-requirements section">
+		        <div class="container py-5">
+			        <div class="section-col-max mx-auto">
+				        <h3 class="section-title mb-4">Для кого курс</h3>
+			            <p class="mb-4">Для культурных детей от 10 лет и усидчивых терпеливых людей которых не пугает компьютер... и зарплаты программистов:) ну и конечно же у вас должен быть ПК или ноутбук свежее 2012 года и хороший интернет. Так же помогу <a href="/order.html?work=makepc" target="_self">приобрести или собрать</a> вам новый ПК или модернизирую старый.</p>
+			            
+			             <div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
+						    <h4 class="form-heading text-center mb-3">Заявка на прохождение курса</h4>
+						    <div class="form-intro text-center mb-3">Напишите имя и телефон и я перезвоню вам в ближайшее время.</div>
+						    <div class="form-wrapper">
+							    <form class="lead-form" method="post" action="/getquotes" enctype="application/x-www-form-urlencoded">
+									<div class="form-group mb-3">
+										<label for="given-name" class="sr-only">Имя</label>
+										<input type="text" class="form-control " id="given-name" name="given-name" title="Ваш имя" placeholder="Ваше имя" minlength="2" maxlength="64" pattern="[a-zA-Zа-яёА-ЯЁїЇіІґҐ\s\.\,\-]{2,64}" autocomplete="given-name" required="required">
+									</div>
+									<div class="form-group mb-3">
+										<label for="phone" class="sr-only">Телефон</label>
+										<input type="tel" class="form-control " id="phone" name="tel" title="Ваш телефон останется в тайне для всех кроме меня" placeholder="Ваш номер телефона" pattern="[\d\s\-\+\(\)]{10,21}" autocomplete="tel" required="required">
+									</div>
+									<div class="form-group mb-3">
+										<label for="msg" class="sr-only">Записка</label>
+										<textarea rows="2" class="form-control " id="msg" name="msg" title="Сообщение до 150 символов" placeholder="Записка примечание" maxlength="150" minlength="3" pattern="[a-zA-Zа-яёА-ЯЁїЇіІґҐ\s\.\,\-\:]{3,150}|^(http)" required="required" ></textarea>
+								</div>
+									<button type="submit" class="btn btn-ghost btn-submit btn-block">Позвоните мне</button>
+								</form>
+						    </div><!--//form-wrapper-->
+					    </div><!--//lead-form-wrapper-->
+			            
+			        </div>
+		        </div><!--//container-->
+		    </div><!--//section-requirements-->
+		    
+		    <div id="section-tutor" class="section-tutor section pb-5">			    
+		        <div class="container">
+			        <div class="container-inner p-5 position-relative theme-bg-primary rounded">
+				        <div class="section-bg-container"></div>
+				        <div class="row">
+					        <div class="col-12 col-lg-3">
+						        <div class="tutor-img-holder mb-5 mb-lg-0 text-center">
+							        <img class="tutor-profile img-fluid rounded" src="/assets/images/iam.jpg" alt="">
+						        </div><!--//tutor-img-holder-->
+					        </div><!--//col-->
+					        <div class="col-12 col-lg-9">
+						        <div class="pl-lg-4">
+							        <h3 class="section-title mb-4 text-white text-lg-left">Кто обучит</h3>
+							        <p>Меня зовут Роман, я программист бакенд серверной логики unix-систем с 3+ стажем, системный и администратор баз данных. Люблю знакомится с последними технологиями в IT, интересует машинное обучение в SEO, разработка it решений для бизнеса, стартапы. Я самостоятельно научился программированию и это было ооочень дооолго... поэтому знаю как ускорить обучение. По себе знаю какая информация и в каком виде необходима для этого, как преодолеть неуверенность в освоении технологий. Сегодня уже 2021 год и значительно упростился сам процесс создания программ - при этом для новичка вникать стало еще сложнее. Теперь имею опыт, расставил приоритеты в применимости технологий и архитектур. Могу помогать людям разного возраста от школьников до людей преклонного возраста освоить работу с ПК. Имею высшее образование и простую манеру изложения сложных вещей.</p>	
+						            <div class="text-center text-lg-left">
+							            <ul class="social-list list-unstyled mt-4 mb-0 mx-auto mx-lg-0">
+											<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li> 
+											<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+											<li class="list-inline-item"><a href="#"><i class="fa fa-globe fa-fw"></i></a></li>
+											<li class="list-inline-item"><a href="#"><i class="fa fa-blog fa-fw"></i></a></li>
+										</ul><!--//social-list-->	
+						            </div>				        
+			                    </div>
+					        </div><!--//col-->
+				        </div><!--//row-->
+			        </div><!--//container-inner-->
+		        </div><!--//container-->
+		    </div><!--//section-tutor-->
+		    
+
+	        <div id="section-pricing" class="section-pricing py-5">
+		        <div class="container">
+			        <div class="single-col-max mx-auto">
+			        <h3 class="text-center mb-5">Выбирайте курс</h3>
+		            <div class="pricing-plan">
+			            <div class="row">
+									 %% range .grids%%
+				            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+					            <div class="plan-item rounded">
+						            <div class="plan-header">
+							            <h4 class="plan-heading rounded-top p-3  theme-bg-primary">ПРОБНОЕ ЗАНЯТИЕ</h4>
+						            </div>
+						            
+						            <div class="plan-details p-4">
+							            <div class="plan-desc text-center mb-4">
+								            <div class="plan-price">0 грн.</div>
+								            <div class="plan-price-desc">Первое занятие (2 часа)</div>
+							            </div>
+							            <div class="plan-content px-3">
+							                <div class="plan-content-intro">Вы поймете как проходит обучение и подойдет ли вам наставник</div>
+								            <ul class="plan-content-list list-unstyled">
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Подготовка носителя Linux и состав программ для программирования</li>
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Установка Linux (Ubuntu/Debian)</li>
+								            </ul>
+								            
+							            </div><!--//plan-content-->
+							            
+						            </div><!--//plan-content-->
+						            <div class="plan-cta text-center px-4">
+							            <a class="btn btn-ghost btn-block" href="/order.html?category=unixstack&product=firstfree" target="_self">Заказать</a>
+							        </div>
+					            </div><!--//plan-item-->
+				            </div><!--// TreeProducts Item-->
+				            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+					            <div class="plan-item rounded">
+						            <div class="plan-header">
+							            <h4 class="plan-heading rounded-top p-3  theme-bg-primary">ОДНО ЗАНЯТИЕ</h4>
+						            </div>
+						            
+						            <div class="plan-details p-4">
+							            <div class="plan-desc text-center mb-4">
+								            <div class="plan-price">800 грн.</div>
+								            <div class="plan-price-desc">Занятие 2+ часа</div>
+							            </div>
+							            <div class="plan-content px-3">
+							                <div class="plan-content-intro">Оплачивайте только за каждый день занятий отдельно</div>
+								            <ul class="plan-content-list list-unstyled">
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Занятия в порядке модулей</li>
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Вся программа из всего курса "24 часа"</li>
+								            </ul>
+								            
+							            </div><!--//plan-content-->
+							            
+						            </div><!--//plan-content-->
+						            <div class="plan-cta text-center px-4">
+							            <a class="btn btn-ghost btn-block" href="/order.html?category=unixstack&product=payday" target="_self">Заказать</a>
+							        </div>
+					            </div><!--//plan-item-->
+				            </div><!--// TreeProducts Item-->
+				            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+					            <div class="plan-item rounded">
+						            <div class="plan-header">
+							            <h4 class="plan-heading rounded-top p-3 theme-bg-primary">КУРС 24ЧАСА</h4>
+						            </div>
+						            
+						            <div class="plan-details p-4">
+							            <div class="plan-desc text-center mb-4">
+								            <div class="plan-price">8000 грн.</div>
+								            <div class="plan-price-desc">Основные 3 модуля за 24 часа</div>
+							            </div>
+							            <div class="plan-content px-3">
+							                <div class="plan-content-intro">Научитесь:</div>
+								            <ul class="plan-content-list list-unstyled">
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Уверенно работать в Linux</li>
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Устанавливать Wordpress, Prestashop</li>
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Выставить свой https-сайт в интернет</li>
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Работать с SQL базой</li>
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Программировать PHP/JS/SQL...</li>
+									            
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Разрабатывать свое web-приложение</li>
+									            <li><i class="theme-check-icon fas fa-check mr-2"></i>Получить допуск к факультативным занятиям</li>
+								            </ul>
+								            
+							            </div><!--//plan-content-->
+							             
+						            </div><!--//plan-content-->
+						            <div class="plan-cta text-center px-4">
+							             <a class="btn btn-primary btn-block" href="/order.html?category=unixstack&product=all24h" target="_self">Заказать</a>
+							        </div>
+					            </div><!--//plan-item-->
+				            </div><// TreeProducts Item-->
+				            %% end %%
+			            </div><!--//row-->
+		            </div><!--//pricing-plan-->
+		            </div>
+		        </div><!--//container-->
+	        </div><!--//section-pricing-->
+
+		    <div id="section-reviews" class="section-reviews py-5">
+		        <div class="container">
+			        <h3 class="section-title mb-5">Отзывы пока не работают.</h3>
+			        <div class="row">
+				        <div class="col-12 col-md-6 col-lg-4 mb-4">
+					        <div class="review-item rounded p-5">
+								<blockquote class="quote mb-4">
+									<div class="quote-icon-holder">
+										<svg class="quote-icon-svg" width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											    <path class="quote-icon-path" d="M19.2093023,0 L19.2093023,1.17365269 C17.5968912,1.78044216 16.3333379,2.73452443 15.4186047,4.03592814 C14.5038714,5.33733186 14.0465116,6.69061174 14.0465116,8.09580838 C14.0465116,8.39920311 14.0930228,8.62275377 14.1860465,8.76646707 C14.2480623,8.86227593 14.3178291,8.91017964 14.3953488,8.91017964 C14.4728686,8.91017964 14.5891465,8.85429198 14.744186,8.74251497 C15.2403126,8.37524766 15.8682133,8.19161677 16.627907,8.19161677 C17.5116323,8.19161677 18.2945702,8.56287054 18.9767442,9.30538922 C19.6589181,10.0479079 20,10.9301346 20,11.9520958 C20,13.0219614 19.608531,13.9640678 18.8255814,14.7784431 C18.0426317,15.5928184 17.0930288,16 15.9767442,16 C14.6744121,16 13.5503923,15.4491073 12.6046512,14.3473054 C11.65891,13.2455035 11.1860465,11.7684723 11.1860465,9.91616766 C11.1860465,7.76046826 11.8294509,5.82835186 13.1162791,4.11976048 C14.4031072,2.4111691 16.4340947,1.03792934 19.2093023,0 Z M8.02325581,0 L8.02325581,1.17365269 C6.41084465,1.78044216 5.1472914,2.73452443 4.23255814,4.03592814 C3.31782488,5.33733186 2.86046512,6.69061174 2.86046512,8.09580838 C2.86046512,8.39920311 2.90697628,8.62275377 3,8.76646707 C3.06201581,8.86227593 3.13178256,8.91017964 3.20930233,8.91017964 C3.28682209,8.91017964 3.4031,8.85429198 3.55813953,8.74251497 C4.05426605,8.37524766 4.68216674,8.19161677 5.44186047,8.19161677 C6.32558581,8.19161677 7.10852372,8.56287054 7.79069767,9.30538922 C8.47287163,10.0479079 8.81395349,10.9301346 8.81395349,11.9520958 C8.81395349,13.0219614 8.42248453,13.9640678 7.63953488,14.7784431 C6.85658523,15.5928184 5.90698233,16 4.79069767,16 C3.48836558,16 2.36434581,15.4491073 1.41860465,14.3473054 C0.472863488,13.2455035 0,11.7684723 0,9.91616766 C0,7.76046826 0.643404419,5.82835186 1.93023256,4.11976048 C3.2170607,2.4111691 5.24804814,1.03792934 8.02325581,0 Z" ></path>
+											</g>
+										</svg><!--//quote-icon-->
+									</div>
+									<p>234567890Great course lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum mi sed tortor lobortis, nec feugiat nisi venenatis.</p>
+								</blockquote><!--//quote-->
+								<div class="source">
+									<div class="row align-items-center">
+										<div class="col-3 col-lg-4">
+											<div class="profile"><img class="profile-image img-fluid" src="/assets/images/users/user-1.jpg" alt=""></div>
+										</div><!--col-12-->
+										<div class="col-9 col-lg-8">
+											<div class="name font-weight-bold">Fake Man</div>
+											<div class="meta">Fake Man</div>
+										</div><!--//col-12-->
+									</div><!--//row-->
+								</div><!--//source-->
+							</div><!--//item-->
+				        </div><!--//col-->
+				        <div class="col-12 col-md-6 col-lg-4 mb-4">
+					        <div class="review-item rounded p-5">
+								<blockquote class="quote mb-4">
+									<div class="quote-icon-holder">
+										<svg class="quote-icon-svg" width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											    <path class="quote-icon-path" d="M19.2093023,0 L19.2093023,1.17365269 C17.5968912,1.78044216 16.3333379,2.73452443 15.4186047,4.03592814 C14.5038714,5.33733186 14.0465116,6.69061174 14.0465116,8.09580838 C14.0465116,8.39920311 14.0930228,8.62275377 14.1860465,8.76646707 C14.2480623,8.86227593 14.3178291,8.91017964 14.3953488,8.91017964 C14.4728686,8.91017964 14.5891465,8.85429198 14.744186,8.74251497 C15.2403126,8.37524766 15.8682133,8.19161677 16.627907,8.19161677 C17.5116323,8.19161677 18.2945702,8.56287054 18.9767442,9.30538922 C19.6589181,10.0479079 20,10.9301346 20,11.9520958 C20,13.0219614 19.608531,13.9640678 18.8255814,14.7784431 C18.0426317,15.5928184 17.0930288,16 15.9767442,16 C14.6744121,16 13.5503923,15.4491073 12.6046512,14.3473054 C11.65891,13.2455035 11.1860465,11.7684723 11.1860465,9.91616766 C11.1860465,7.76046826 11.8294509,5.82835186 13.1162791,4.11976048 C14.4031072,2.4111691 16.4340947,1.03792934 19.2093023,0 Z M8.02325581,0 L8.02325581,1.17365269 C6.41084465,1.78044216 5.1472914,2.73452443 4.23255814,4.03592814 C3.31782488,5.33733186 2.86046512,6.69061174 2.86046512,8.09580838 C2.86046512,8.39920311 2.90697628,8.62275377 3,8.76646707 C3.06201581,8.86227593 3.13178256,8.91017964 3.20930233,8.91017964 C3.28682209,8.91017964 3.4031,8.85429198 3.55813953,8.74251497 C4.05426605,8.37524766 4.68216674,8.19161677 5.44186047,8.19161677 C6.32558581,8.19161677 7.10852372,8.56287054 7.79069767,9.30538922 C8.47287163,10.0479079 8.81395349,10.9301346 8.81395349,11.9520958 C8.81395349,13.0219614 8.42248453,13.9640678 7.63953488,14.7784431 C6.85658523,15.5928184 5.90698233,16 4.79069767,16 C3.48836558,16 2.36434581,15.4491073 1.41860465,14.3473054 C0.472863488,13.2455035 0,11.7684723 0,9.91616766 C0,7.76046826 0.643404419,5.82835186 1.93023256,4.11976048 C3.2170607,2.4111691 5.24804814,1.03792934 8.02325581,0 Z" ></path>
+											</g>
+										</svg><!--//quote-icon-->
+									</div>
+									<p>Highly recommend lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor id velit in ullamcorper nam eu elit nec nunc. </p>
+								</blockquote><!--//quote-->
+								<div class="source">
+									<div class="row align-items-center">
+										<div class="col-3 col-lg-4">
+											<div class="profile"><img class="profile-image img-fluid" src="/assets/images/users/user-2.jpg" alt=""></div>
+										</div><!--col-12-->
+										<div class="col-9 col-lg-8">
+											<div class="name font-weight-bold">Fake Woman</div>
+											<div class="meta">Fake Woman</div>
+										</div><!--//col-12-->
+									</div><!--//row-->
+								</div><!--//source-->
+							</div><!--//item-->
+				        </div><!--//col-->
+				        <div class="col-12 col-md-6 col-lg-4 mb-4">
+					        <div class="review-item rounded p-5">
+								<blockquote class="quote mb-4">
+									<div class="quote-icon-holder">
+										<svg class="quote-icon-svg" width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											    <path class="quote-icon-path" d="M19.2093023,0 L19.2093023,1.17365269 C17.5968912,1.78044216 16.3333379,2.73452443 15.4186047,4.03592814 C14.5038714,5.33733186 14.0465116,6.69061174 14.0465116,8.09580838 C14.0465116,8.39920311 14.0930228,8.62275377 14.1860465,8.76646707 C14.2480623,8.86227593 14.3178291,8.91017964 14.3953488,8.91017964 C14.4728686,8.91017964 14.5891465,8.85429198 14.744186,8.74251497 C15.2403126,8.37524766 15.8682133,8.19161677 16.627907,8.19161677 C17.5116323,8.19161677 18.2945702,8.56287054 18.9767442,9.30538922 C19.6589181,10.0479079 20,10.9301346 20,11.9520958 C20,13.0219614 19.608531,13.9640678 18.8255814,14.7784431 C18.0426317,15.5928184 17.0930288,16 15.9767442,16 C14.6744121,16 13.5503923,15.4491073 12.6046512,14.3473054 C11.65891,13.2455035 11.1860465,11.7684723 11.1860465,9.91616766 C11.1860465,7.76046826 11.8294509,5.82835186 13.1162791,4.11976048 C14.4031072,2.4111691 16.4340947,1.03792934 19.2093023,0 Z M8.02325581,0 L8.02325581,1.17365269 C6.41084465,1.78044216 5.1472914,2.73452443 4.23255814,4.03592814 C3.31782488,5.33733186 2.86046512,6.69061174 2.86046512,8.09580838 C2.86046512,8.39920311 2.90697628,8.62275377 3,8.76646707 C3.06201581,8.86227593 3.13178256,8.91017964 3.20930233,8.91017964 C3.28682209,8.91017964 3.4031,8.85429198 3.55813953,8.74251497 C4.05426605,8.37524766 4.68216674,8.19161677 5.44186047,8.19161677 C6.32558581,8.19161677 7.10852372,8.56287054 7.79069767,9.30538922 C8.47287163,10.0479079 8.81395349,10.9301346 8.81395349,11.9520958 C8.81395349,13.0219614 8.42248453,13.9640678 7.63953488,14.7784431 C6.85658523,15.5928184 5.90698233,16 4.79069767,16 C3.48836558,16 2.36434581,15.4491073 1.41860465,14.3473054 C0.472863488,13.2455035 0,11.7684723 0,9.91616766 C0,7.76046826 0.643404419,5.82835186 1.93023256,4.11976048 C3.2170607,2.4111691 5.24804814,1.03792934 8.02325581,0 Z" ></path>
+											</g>
+										</svg><!--//quote-icon-->
+									</div>
+									<p>I've learnt so much lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quam magna, vulputate at sem id, gravida laoreet risus.</p>
+								</blockquote><!--//quote-->
+								<div class="source">
+									<div class="row align-items-center">
+										<div class="col-3 col-lg-4">
+											<div class="profile"><img class="profile-image img-fluid" src="/assets/images/users/user-3.jpg" alt=""></div>
+										</div><!--col-12-->
+										<div class="col-9 col-lg-8">
+											<div class="name font-weight-bold">Fake Man</div>
+											<div class="meta">Fake Man</div>
+										</div><!--//col-12-->
+									</div><!--//row-->
+								</div><!--//source-->
+							</div><!--//item-->
+				        </div><!--//col-->
+				        <div class="col-12 col-md-6 col-lg-4 mb-4">
+					        <div class="review-item rounded p-5">
+								<blockquote class="quote mb-4">
+									<div class="quote-icon-holder">
+										<svg class="quote-icon-svg" width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											    <path class="quote-icon-path" d="M19.2093023,0 L19.2093023,1.17365269 C17.5968912,1.78044216 16.3333379,2.73452443 15.4186047,4.03592814 C14.5038714,5.33733186 14.0465116,6.69061174 14.0465116,8.09580838 C14.0465116,8.39920311 14.0930228,8.62275377 14.1860465,8.76646707 C14.2480623,8.86227593 14.3178291,8.91017964 14.3953488,8.91017964 C14.4728686,8.91017964 14.5891465,8.85429198 14.744186,8.74251497 C15.2403126,8.37524766 15.8682133,8.19161677 16.627907,8.19161677 C17.5116323,8.19161677 18.2945702,8.56287054 18.9767442,9.30538922 C19.6589181,10.0479079 20,10.9301346 20,11.9520958 C20,13.0219614 19.608531,13.9640678 18.8255814,14.7784431 C18.0426317,15.5928184 17.0930288,16 15.9767442,16 C14.6744121,16 13.5503923,15.4491073 12.6046512,14.3473054 C11.65891,13.2455035 11.1860465,11.7684723 11.1860465,9.91616766 C11.1860465,7.76046826 11.8294509,5.82835186 13.1162791,4.11976048 C14.4031072,2.4111691 16.4340947,1.03792934 19.2093023,0 Z M8.02325581,0 L8.02325581,1.17365269 C6.41084465,1.78044216 5.1472914,2.73452443 4.23255814,4.03592814 C3.31782488,5.33733186 2.86046512,6.69061174 2.86046512,8.09580838 C2.86046512,8.39920311 2.90697628,8.62275377 3,8.76646707 C3.06201581,8.86227593 3.13178256,8.91017964 3.20930233,8.91017964 C3.28682209,8.91017964 3.4031,8.85429198 3.55813953,8.74251497 C4.05426605,8.37524766 4.68216674,8.19161677 5.44186047,8.19161677 C6.32558581,8.19161677 7.10852372,8.56287054 7.79069767,9.30538922 C8.47287163,10.0479079 8.81395349,10.9301346 8.81395349,11.9520958 C8.81395349,13.0219614 8.42248453,13.9640678 7.63953488,14.7784431 C6.85658523,15.5928184 5.90698233,16 4.79069767,16 C3.48836558,16 2.36434581,15.4491073 1.41860465,14.3473054 C0.472863488,13.2455035 0,11.7684723 0,9.91616766 C0,7.76046826 0.643404419,5.82835186 1.93023256,4.11976048 C3.2170607,2.4111691 5.24804814,1.03792934 8.02325581,0 Z" ></path>
+											</g>
+										</svg><!--//quote-icon-->
+									</div>
+									<p>Great course lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum mi sed tortor lobortis, nec feugiat nisi venenatis.</p>
+								</blockquote><!--//quote-->
+								<div class="source">
+									<div class="row align-items-center">
+										<div class="col-3 col-lg-4">
+											<div class="profile"><img class="profile-image img-fluid" src="/assets/images/users/user-4.jpg" alt=""></div>
+										</div><!--col-12-->
+										<div class="col-9 col-lg-8">
+											<div class="name font-weight-bold">Fake Man</div>
+											<div class="meta">Fake Man</div>
+										</div><!--//col-12-->
+									</div><!--//row-->
+								</div><!--//source-->
+							</div><!--//item-->
+				        </div><!--//col-->
+				        <div class="col-12 col-md-6 col-lg-4 mb-4 align-items-center order-1 order-lg-0">
+					        <div class="review-item item-promo rounded p-5">
+						        <h4 class="item-promo-heading mb-3">Написать отзыв</h4>
+						        <div class="item-promo-desc mb-3">Ваш отзыв появится сразу если не будет содержить рекламы, спама, ссылки</div>
+						        <a class="btn btn-ghost" href="/reply.html" title="пока не доступно!">Написать</a>
+					        </div>
+				        </div><!--//col-->
+				        <div class="col-12 col-md-6 col-lg-4 mb-4">
+					        <div class="review-item rounded p-5">
+								<blockquote class="quote mb-4">
+									<div class="quote-icon-holder">
+										<svg class="quote-icon-svg" width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											    <path class="quote-icon-path" d="M19.2093023,0 L19.2093023,1.17365269 C17.5968912,1.78044216 16.3333379,2.73452443 15.4186047,4.03592814 C14.5038714,5.33733186 14.0465116,6.69061174 14.0465116,8.09580838 C14.0465116,8.39920311 14.0930228,8.62275377 14.1860465,8.76646707 C14.2480623,8.86227593 14.3178291,8.91017964 14.3953488,8.91017964 C14.4728686,8.91017964 14.5891465,8.85429198 14.744186,8.74251497 C15.2403126,8.37524766 15.8682133,8.19161677 16.627907,8.19161677 C17.5116323,8.19161677 18.2945702,8.56287054 18.9767442,9.30538922 C19.6589181,10.0479079 20,10.9301346 20,11.9520958 C20,13.0219614 19.608531,13.9640678 18.8255814,14.7784431 C18.0426317,15.5928184 17.0930288,16 15.9767442,16 C14.6744121,16 13.5503923,15.4491073 12.6046512,14.3473054 C11.65891,13.2455035 11.1860465,11.7684723 11.1860465,9.91616766 C11.1860465,7.76046826 11.8294509,5.82835186 13.1162791,4.11976048 C14.4031072,2.4111691 16.4340947,1.03792934 19.2093023,0 Z M8.02325581,0 L8.02325581,1.17365269 C6.41084465,1.78044216 5.1472914,2.73452443 4.23255814,4.03592814 C3.31782488,5.33733186 2.86046512,6.69061174 2.86046512,8.09580838 C2.86046512,8.39920311 2.90697628,8.62275377 3,8.76646707 C3.06201581,8.86227593 3.13178256,8.91017964 3.20930233,8.91017964 C3.28682209,8.91017964 3.4031,8.85429198 3.55813953,8.74251497 C4.05426605,8.37524766 4.68216674,8.19161677 5.44186047,8.19161677 C6.32558581,8.19161677 7.10852372,8.56287054 7.79069767,9.30538922 C8.47287163,10.0479079 8.81395349,10.9301346 8.81395349,11.9520958 C8.81395349,13.0219614 8.42248453,13.9640678 7.63953488,14.7784431 C6.85658523,15.5928184 5.90698233,16 4.79069767,16 C3.48836558,16 2.36434581,15.4491073 1.41860465,14.3473054 C0.472863488,13.2455035 0,11.7684723 0,9.91616766 C0,7.76046826 0.643404419,5.82835186 1.93023256,4.11976048 C3.2170607,2.4111691 5.24804814,1.03792934 8.02325581,0 Z" ></path>
+											</g>
+										</svg><!--//quote-icon-->
+									</div>
+									<p>I've learnt so much lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quam magna, vulputate at sem id, gravida laoreet risus.</p>
+								</blockquote><!--//quote-->
+								<div class="source">
+									<div class="row align-items-center">
+										<div class="col-3 col-lg-4">
+											<div class="profile"><img class="profile-image img-fluid" src="/assets/images/users/user-5.jpg" alt=""></div>
+										</div><!--col-12-->
+										<div class="col-9 col-lg-8">
+											<div class="name font-weight-bold">Fake Woman</div>
+											<div class="meta">Fake Woman</div>
+										</div><!--//col-12-->
+									</div><!--//row-->
+								</div><!--//source-->
+							</div><!--//item-->
+				        </div><!--//col-->
+				        
+			        </div><!--//row-->
+		        </div><!--//container-->
+	        </div><!--//section-reviews-->
+	        
+	        <div id="section-faq" class="section-faq my-lg-5">
+		        <div class="container">
+			        <div class="container-inner p-5 theme-bg-light rounded">
+				        <div class="row">
+					        <div class="col-12 col-lg-3">
+						        <h3 class="section-title text-left mb-4">Вопрос-Ответ</h3>
+						        <div class="intro mb-5 pr-lg-3">Не нашли информацию по вашему вопросу? <a class="theme-link" href="/support.html?q=faqrequest">Напишите и получите ответ</a>.</div>
+					        </div>
+					        <div class="col-12 col-lg-9">
+						        <div class="faq-items pl-lg-3">
+							        <div class="item">
+										<h4 class="faq-q mb-2"><i class="far fa-question-circle mr-2 text-primary"></i>Когда надо оплачивать занятия?</h4>
+										<div class="faq-a">
+											<p>Вы можете оплатить весь курс занятий либо сразу когда я буду у вас либо оплачивать за каждое занятие отдельно.</p>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="faq-q mb-2"><i class="far fa-question-circle mr-2 text-primary"></i>Принимаете безналичную оплату?</h4>
+										<div class="faq-a">
+											<p>Да конечно. Я являюсь предпринимателем и предоставлю свои реквизиты удобным вам способом. В дальнейшем сделаю так же возможность оплаты с сайта.</p>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="faq-q mb-2"><i class="far fa-question-circle mr-2 text-primary"></i>Что делать если наш компьютер(ноутбук) не работает?</h4>
+										<div class="faq-a">
+											<p>Обратится ко мне и я его <a href="/order.html?work=repairpc" title="Заказать ремонт">отремонтирую</a> либо: в сложном случае, особое компьютерное оборудование, <a href="/order.html?work=repairpc" title="Заказать ремонт">отправлю в сервис-центр и прослежу</a> за его надлежащим ремонтом.</p>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="faq-q mb-2"><i class="far fa-question-circle mr-2 text-primary"></i>В какое время вы сможете приехать к нам?</h4>
+										<div class="faq-a">
+											<p>Я смогу приехать к вам в то время в которое мы согласуем. А хотелось бы его согласовывать с 10-00 до 20-00.</p>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="faq-q mb-2"><i class="far fa-question-circle mr-2 text-primary"></i>Можно расчитывать на приватность нашего общения?</h4>
+										<div class="faq-a">
+											<p>Непременно именно так и происходит. Я не разглашаю никоим образом информацию доступную мне в результате общения с моим клиентами. Это то что бесценно - отношения и репутация.</p>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="faq-q mb-2"><i class="far fa-question-circle mr-2 text-primary"></i>Кто делал этот сайт?</h4>
+										<div class="faq-a">
+											<p>Тема сайта была выбрана и доделана короткими летними ночами. А сам бакенд и бд и остальные интеграции делаю я сам.</p>
+										</div>
+									</div><!--//item-->
+						        </div><!--//faq-items-->
+					        </div>
+				        </div><!--//row-->
+			        </div><!--//container-inner-->
+		        </div><!--//container-->
+	        </div><!--//section-faq-->
+	        
+	        <div id="section-more" class="section section-related py-5">
+		        <div class="container">
+			        <h3 class="section-title mb-5">Факультативный модуль</h3>
+			        <div class="related-items row">
+				        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+					        <div class="item">
+						        <div class="item-thumb">
+							        <img class="img-fluid rounded-top" src="/assets/images/course-1.jpg" alt="">
+						        </div><!--//thumb-holder-->
+						        <div class="item-desc p-4 rounded-bottom">
+							        <h4 class="title mb-3"><a href="/order.html?category=unixstack&product=dbinfosystems">Проектирование информ-систем и БД</a></h4>
+							        <div class="summary mb-3">Занятие состоит из аналитики того что будет учитываться для бизнес-продукта. Определим необходимые сущности для даных. Из этого мы сможем понять как нам связывать таблицы в БД. Так же рассмотрим состав страниц и наполнение API приложения для реализации бизнес задач и вспомогательных технических нужд.</div>
+							        <div class="text-center">
+							            <a class="btn btn-ghost btn-block" href="/order.html?category=unixstack&product=dbinfosystems">Записаться</a>
+							        </div>
+						        </div><!--//desc-->
+							        
+					        </div><!--//item-->
+				        </div><!--//col-->
+				        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+					        <div class="item">
+						        <div class="item-thumb">
+							        <img class="img-fluid rounded-top" src="/assets/images/course-2.jpg" alt="">
+						        </div><!--//thumb-holder-->
+						        <div class="item-desc p-4 rounded-bottom">
+							        <h4 class="title mb-3"><a href="/order.html?category=unixstack&product=seo">SEO Поисковая оптимизация</a></h4>
+							        <div class="summary mb-3">Что и как писать на сайте для того чтобы его любили поисковики, современные фичи которые ждёт Google от seo-шников ...Подробности напишу позже. </div>
+							        <div class="text-center">
+							            <a class="btn btn-ghost btn-block" href="/order.html?service=extendedseo">Записаться</a>
+							        </div>
+						        </div><!--//desc-->
+							        
+					        </div><!--//item-->
+				        </div><!--//col-->
+				        <div class="col-12 col-lg-4">
+					        <div class="item">
+						        <div class="item-thumb">
+							        <img class="img-fluid rounded-top" src="/assets/images/course-3.jpg" alt="">
+						        </div><!--//thumb-holder-->
+						        <div class="item-desc p-4 rounded-bottom">
+							        <h4 class="title mb-3"><a href="#">Резюме и поиск работы</a></h4>
+							        <div class="summary mb-3">Подготовка и составление резюме, поиск вакансий, подготовка к собеседованию, какие бывают задания на работе. Так же подчеркну важность английского языка - только устного и какие возможности дает в реальной работе.</div>
+							        <div class="text-center">
+							            <a class="btn btn-ghost btn-block" href="/order.html?service=jobsearch">Записаться</a>
+							        </div>
+						        </div><!--//desc-->
+							        
+					        </div><!--//item-->
+				        </div><!--//col-->
+			        </div><!--//row-->
+		        </div><!--//container-->
+	        </div><!--//section-8-->
+	        
+	        
+	        <div class="section section-contact text-center">
+		        <div class="container">
+			        <div class="container-inner p-5 position-relative theme-bg-primary rounded text-white">
+				        <div class="section-bg-container" onclick="window.location = '/support.html?q=bussinessproposal';"></div>
+				        <div class="section-col-max mx-auto">
+				            <h3 class="section-title mb-4 text-white">Get In Touch</h3>
+				            <div class="profile-holder mb-3"><img class="profile-image" src="/assets/images/iam-sm.jpg" alt="image" title="Боюсь что обьяснение как работает интернет в обобщенном виде - на самом деле объясняется довольно просто"></div>
+					        <p class="intro">Want to make the bussiness proposal?? <br>You can send message by <a title="by site messaging system" href="/support.html?q=bussinessproposal">this link</a></p>
+		                    <h5 class="intro text-white">Know someone who may find the course useful?</h5>
+			                <div>Please help me spread the word! :)</div>
+			                <div class="text-center mt-4">
+					            <ul class="social-list list-unstyled mx-auto mb-0">
+									<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li> 
+									<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+									<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+									<li class="list-inline-item"><a href="#"><i class="fas fa-envelope fa-fw"></i></a></li>
+								</ul><!--//social-list-->	
+				            </div>	
+				        </div><!--//section-col-max-->
+			        </div><!--//container-inner-->
+		        </div><!--//container-->
+	        </div><!--//section-->
+	    </div><!--//sections-block--> 
+	</div><!--//section-wrapper-->
+
+	<footer class="footer pb-5 text-center">
+		<div class="container">
+			<div class="copyright mb-2">
+				<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+	            Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow noopener">Xiaoying Riley</a> for developers<a href="/auth/login.html">.</a>
+			</div>
+			<div class="legal mb-0">
+				<ul class="list-inline mb-0" lang="en">
+					<li class="list-inline-item"><a href="/support.html">Support</a></li>
+					<li class="list-inline-item theme-text-light">|</li>
+					<li class="list-inline-item"><a href="/GDPR_POLICY_RU.txt">Privacy Policy</a></li>
+					<li class="list-inline-item theme-text-light">|</li>
+					<li class="list-inline-item"><a href="/tos.html">Terms of Services</a></li>
+				</ul>
+			</div>
+		</div><!--//container-->
+	</footer><!--//footer-->
+	
+	<!-- Video Modal -->
+	<div class="modal modal-video" id="modal-video" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<div class="modal-body">
+					<div class="video-container embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/000" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					</div><!-- //video-container -->
+
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Order Call request form -->
+	<div class="modal modal-video" id="modal-callrequest" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<div class="modal-body">
+					<div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
+					    <h4 class="form-heading text-center mb-3">Заказать звонок</h4>
+					    <div class="form-intro text-center mb-3">Напишите имя и телефон и я перезвоню вам в ближайшее время.</div>
+					    <div class="form-wrapper">
+						    <form class="lead-form" method="post" action="/getquotes" enctype="application/x-www-form-urlencoded">
+								<div class="form-group mb-3">
+									<label for="given-name-modal" class="sr-only">Имя</label>
+									<input type="text" class="form-control " id="given-name-modal" name="given-name" title="Ваш имя" placeholder="Ваше имя" minlength="2" maxlength="64" pattern="[a-zA-Zа-яёА-ЯЁїЇіІґҐ\s\.\,\-]{2,64}" required="required">
+								</div>
+								<div class="form-group mb-3">
+									<label for="phone-modal" class="sr-only">Телефон</label>
+									<input type="tel" class="form-control " id="phone-modal" name="tel" title="Ваш телефон останется в тайне для всех кроме меня" pattern="[\d\s\-\+\(\)]{10,21}" placeholder="Ваш номер телефона" required autocomplete="tel">
+								</div>
+								<div class="form-group mb-3">
+										<label for="msg" class="sr-only">Записка</label>
+										<textarea rows="4" class="form-control " id="msg" name="msg" title="Сообщение до 150 символов" placeholder="Записка примечание" maxlength="150" minlength="3" pattern="[a-zA-Zа-яёА-ЯЁїЇіІґҐ\s\.\,\-]{3,150}|^(http)" required="required" ></textarea>
+								</div>
+								<input type="submit" class="btn btn-ghost btn-submit btn-block" value="Позвонить мне">
+							</form>
+					    </div><!--//form-wrapper-->
+				    </div><!--//lead-form-wrapper-->
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+		<!-- Order Modal -->
+	<div class="modal modal-video" id="modal-order" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<div class="modal-body">
+					<div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
+					    <h4 class="form-heading text-center mb-3">Заказать курс</h4>
+					    <div class="form-intro text-center mb-3">Запоните фрму и я перезвоню вам в ближайшее время.</div>
+					    <div class="form-wrapper">
+						    <form class="lead-form" method="post" action="/getquotes" enctype="application/x-www-form-urlencoded">
+						    	<input id="ordervalue" type="hidden" name="ordervalue">
+								<div class="form-group mb-3">
+									<label for="given-name-modal2" class="sr-only">Имя</label>
+									<input type="text" class="form-control " id="given-name-modal2" name="given-name" title="Ваш имя" placeholder="Ваше имя" minlength="2" maxlength="64" pattern="[a-zA-Zа-яёА-ЯЁїЇіІґҐ\s\.\,\-]{2,64}" required="required">
+								</div>
+								<div class="form-group mb-3">
+									<label for="phone-modal2" class="sr-only">Телефон</label>
+									<input type="tel" class="form-control " id="phone-modal2" name="tel" title="Ваш телефон останется в тайне для всех кроме меня" pattern="[\d\s\-\+\(\)]{10,21}" placeholder="Ваш номер телефона" required autocomplete="tel">
+								</div>
+								<input type="submit" class="btn btn-ghost btn-submit btn-block" value="Позвонить мне">
+							</form>
+					    </div><!--//form-wrapper-->
+				    </div><!--//lead-form-wrapper-->
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+		<!-- Order Call request form -->
+	<div class="modal modal-video modal-video-centered" id="modal-privacy-agreement" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<div class="modal-body">
+					<div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
+					    <h4 class="form-heading text-center mb-3">Информация о конфиденциальности</h4>
+					    <div class="form-intro text-lg-left mb-3">
+					    	
+					    	%% template "_tos_text.html" . %%
+
+					    </div>
+					    <div class="form-wrapper text-lg-left mb-3">
+						    <!-- <form class="lead-form" method="post" action="/getquotes" enctype="application/x-www-form-urlencoded"> -->
+								<!-- <input type="submit" class="btn btn-ghost btn-submit btn-block" onclick="agreeOnce()" value="Подтверждаю"> -->
+							<!-- </form> -->
+								<button class="btn btn-ghost btn-submit btn-block" onclick="agreePrivacyPolicyOnce()">Подтверждаю
+								</button>
+					    </div><!--//form-wrapper-->
+				    </div><!--//lead-form-wrapper-->
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Javascript -->
+	<noscript>
+	</noscript>      
+	<script src="/assets/js/privacy_agreement.js"></script>
+	<script src="/assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+	<script src="/assets/plugins/back-to-top.js"></script>
+    <script src="/assets/plugins/jquery.scrollTo.min.js"></script> 
+	<script src="/assets/js/main.js"></script>
+</body>
+</html> 
+%% end %%

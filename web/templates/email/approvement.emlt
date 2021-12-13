@@ -1,0 +1,14 @@
+From: %% .From %%
+Subject: Dear %% .Name %%, this is aprovement from %% .Brand %%
+MIME-version: 1.0;
+Content-Type: text/plain; charset="UTF-8";
+
+	Dear %% .Name %%, this is aprovement from %% .Brand %%
+
+Please verify your email by open the aprovement link:
+
+%% .ApproveURL %%
+
+Sincerelly, your %% .Brand %%
+---
+Amazing deals, updates, interesting projects in our %% .Brand %% site.

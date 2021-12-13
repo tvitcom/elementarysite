@@ -1,0 +1,32 @@
+{
+  "name": "elementary-learn - First learn web development",
+  "description": "Order learning web development course",
+  "short_name": "elementary-learn",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/assets/images/manifest-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/images/manifest-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "what's learn today?",
+      "short_name": "learn.elementarylearn.site",
+      "description": "Golang for web development",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "/assets/images/manifest-icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": []
+}

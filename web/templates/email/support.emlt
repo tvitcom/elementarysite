@@ -1,0 +1,18 @@
+From: {{ .From }}
+Subject: {{ .Brand }} SUPPORT WAIT {{ .Name }}, 
+MIME-version: 1.0;
+Content-Type: text/plain; charset="UTF-8";
+
+new income support case: {{ .Theme }}
+
+CUSTOMER_NAME: {{ .Name }}
+
+CUSTOMER_TEL : {{ .CustomerEmail }}
+
+CUSTOMER_NOTE: "{{ .Message }}"
+
+CUSTOMER_PICTURE: {{ .Picture }}
+
+Sincerelly, your MAILER from {{ .Brand }}
+---
+Go to the {{ .Brand }} site and contact then by phone!!!
